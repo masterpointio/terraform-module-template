@@ -2,8 +2,8 @@ name: Trunk Upgrade
 
 on:
   schedule:
-    # Every Monday @ 8am
-    - cron: 0 8 * * 1
+    # On the first day of every month @ 8am
+    - cron: 0 8 1 * *
   workflow_dispatch: {}
 
 permissions: read-all
