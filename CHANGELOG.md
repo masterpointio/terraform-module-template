@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/masterpointio/terraform-module-template/compare/v0.1.1...v0.2.0) (2024-11-14)
+
+
+### Features
+
+* adds GH + CRabbit configs ([d86d463](https://github.com/masterpointio/terraform-module-template/commit/d86d463385d501db5465b02de13d60c925b5815d))
+
 ## [0.1.1](https://github.com/masterpointio/terraform-module-template/compare/0.1.0...v0.1.1) (2024-08-15)
 
 
