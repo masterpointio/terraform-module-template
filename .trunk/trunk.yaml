@@ -34,6 +34,10 @@ lint:
     - linters: [tofu]
       paths:
         - "**/backend.tf.json"
+    # Ignore CHANGELOG.md as release-please manages this file
+    - linters: [prettier, markdownlint]
+      paths:
+        - CHANGELOG.md
 actions:
   enabled:
     - trunk-announce
