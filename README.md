@@ -4,6 +4,8 @@
 
 [![Release][release-badge]][latest-release]
 
+[💡 Learn more about Masterpoint below](#who-we-are-𐦂𖨆𐀪𖠋)
+
 ## Purpose and Functionality
 
 This repository serves as a template for creating Terraform modules, providing a standardized structure and essential files for efficient module development. It's designed to ensure consistency and our best practices across Terraform projects.
@@ -12,7 +14,11 @@ This repository serves as a template for creating Terraform modules, providing a
 
 ### Prerequisites (optional)
 
+TODO
+
 ### Step-by-Step Instructions
+
+TODO
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
@@ -29,14 +35,9 @@ Contributions are welcome and appreciated!
 
 Found an issue or want to request a feature? [Open an issue][issues-url]
 
-Want to fix a bug you found or add some functionality? Fork, clone, commit, push, and PR—we'll check it out.
-
-If you have any issues or your PR hasn't been reviewed promptly, please ping us at [hello@masterpoint.io](mailto:hello@masterpoint.io).
+Want to fix a bug you found or add some functionality? Fork, clone, commit, push, and PR — we'll check it out.
 
 ## Who We Are 𐦂𖨆𐀪𖠋
-
-<details>
-<summary><strong>Learn more about our mission and commitments</strong></summary>
 
 Established in 2016, Masterpoint is a team of experienced software and platform engineers specializing in Infrastructure as Code (IaC). We provide expert guidance to organizations of all sizes, helping them leverage the latest IaC practices to accelerate their engineering teams.
 
@@ -47,10 +48,17 @@ Our mission is to simplify cloud infrastructure so developers can innovate faste
 ### Our Commitments
 
 - 🌟 **Open Source**: We live and breathe open source, contributing to and maintaining hundreds of projects across multiple organizations.
-- 🌎 **1% for the Planet**: Demonstrating our commitment to environmental sustainability, we are proud members of 1% for the Planet, pledging to donate 1% of our annual sales to environmental nonprofits.
+- 🌎 **1% for the Planet**: Demonstrating our commitment to environmental sustainability, we are proud members of [1% for the Planet](https://www.onepercentfortheplanet.org), pledging to donate 1% of our annual sales to environmental nonprofits.
 - 🇺🇦 **1% Towards Ukraine**: With team members and friends affected by the ongoing [Russo-Ukrainian war](https://en.wikipedia.org/wiki/Russo-Ukrainian_War), we donate 1% of our annual revenue to invasion relief efforts, supporting organizations providing aid to those in need. [Here's how you can help Ukraine with just a few clicks](https://masterpoint.io/updates/supporting-ukraine/).
 
-</details>
+## Connect With Us
+
+We're active members of the community and are always publishing content, giving talks, and sharing our hard earned expertise. Here are a few ways you can see what we're up to:
+
+- 🤝 [Follow us on LinkedIn](https://www.linkedin.com/company/masterpoint-consulting) and be sure to connect with our founder, [Matt Gowie](https://www.linkedin.com/in/gowiem/).
+- 👩‍💻 [Check out our blog that is packed full of good content on how to build IaC sustainably](https://masterpoint.io/updates/).
+- 🗞️ [Subscribe to our newsletter or read past posts -- all of which are focused on IaC](https://newsletter.masterpoint.io/).
+- 📺 [Check us out on YouTube](https://www.youtube.com/@MasterpointConsulting).
 
 ## License
 
@@ -58,7 +66,7 @@ Our mission is to simplify cloud infrastructure so developers can innovate faste
 
 [![Open Source Initiative][osi-image]][license-url]
 
-Copyright © 2016-2025 [MASTERPOINT CONSULTING LLC](https://masterpoint.io/)
+Copyright © 2016-2025 [Masterpoint Consulting LLC](https://masterpoint.io/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
@@ -66,7 +74,7 @@ Copyright © 2016-2025 [MASTERPOINT CONSULTING LLC](https://masterpoint.io/)
 [license-url]: https://opensource.org/license/apache-2-0
 [osi-image]: https://i0.wp.com/opensource.org/wp-content/uploads/2023/03/cropped-OSI-horizontal-large.png?fit=250%2C229&ssl=1
 
-<!-- Replace `terraform-module-template` with your actual repository name. -->
+<!-- TODO: Replace `terraform-module-template` with your actual repository name. -->
 
 [release-badge]: https://img.shields.io/github/release/masterpointio/terraform-module-template.svg
 [latest-release]: https://github.com/masterpointio/terraform-module-template/releases/latest
