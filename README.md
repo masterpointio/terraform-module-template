@@ -62,7 +62,7 @@ We're active members of the community and are always publishing content, giving 
 
 ## License
 
-[Apache License, Version 2.0][license-url]. See [LICENSE](./LICENSE) for details.
+[Apache License, Version 2.0][license-url].
 
 [![Open Source Initiative][osi-image]][license-url]
 
