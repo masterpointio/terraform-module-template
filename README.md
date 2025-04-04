@@ -4,7 +4,7 @@
 
 [![Release][release-badge]][latest-release]
 
-[💡 Learn more about Masterpoint below](#who-we-are-𐦂𖨆𐀪𖠋)
+💡 Learn more about Masterpoint [below](#who-we-are-𐦂𖨆𐀪𖠋).
 
 ## Purpose and Functionality
 
@@ -55,10 +55,9 @@ Our mission is to simplify cloud infrastructure so developers can innovate faste
 
 We're active members of the community and are always publishing content, giving talks, and sharing our hard earned expertise. Here are a few ways you can see what we're up to:
 
-- 🤝 [Follow us on LinkedIn](https://www.linkedin.com/company/masterpoint-consulting) and be sure to connect with our founder, [Matt Gowie](https://www.linkedin.com/in/gowiem/).
-- 👩‍💻 [Check out our blog that is packed full of good content on how to build IaC sustainably](https://masterpoint.io/updates/).
-- 🗞️ [Subscribe to our newsletter or read past posts -- all of which are focused on IaC](https://newsletter.masterpoint.io/).
-- 📺 [Check us out on YouTube](https://www.youtube.com/@MasterpointConsulting).
+[![LinkedIn][linkedin-badge]][linkedin-url] [![Newsletter][newsletter-badge]][newsletter-url] [![Blog][blog-badge]][blog-url] [![YouTube][youtube-badge]][youtube-url]
+
+... and be sure to connect with our founder, [Matt Gowie](https://www.linkedin.com/in/gowiem/).
 
 ## License
 
@@ -73,10 +72,18 @@ Copyright © 2016-2025 [Masterpoint Consulting LLC](https://masterpoint.io/)
 [banner-image]: https://masterpoint-public.s3.us-west-2.amazonaws.com/v2/standard-long-fullcolor.png
 [license-url]: https://opensource.org/license/apache-2-0
 [osi-image]: https://i0.wp.com/opensource.org/wp-content/uploads/2023/03/cropped-OSI-horizontal-large.png?fit=250%2C229&ssl=1
+[linkedin-badge]: https://img.shields.io/badge/LinkedIn-Follow-0A66C2?style=for-the-badge&logoColor=white
+[linkedin-url]: https://www.linkedin.com/company/masterpoint-consulting
+[blog-badge]: https://img.shields.io/badge/Blog-IaC_Insights-55C1B4?style=for-the-badge&logoColor=white
+[blog-url]: https://masterpoint.io/updates/
+[newsletter-badge]: https://img.shields.io/badge/Newsletter-Subscribe-ECE295?style=for-the-badge&logoColor=222222
+[newsletter-url]: https://newsletter.masterpoint.io/
+[youtube-badge]: https://img.shields.io/badge/YouTube-Subscribe-D191BF?style=for-the-badge&logo=youtube&logoColor=white
+[youtube-url]: https://www.youtube.com/channel/UCeeDaO2NREVlPy9Plqx-9JQ
 
 <!-- TODO: Replace `terraform-module-template` with your actual repository name. -->
 
-[release-badge]: https://img.shields.io/github/release/masterpointio/terraform-module-template.svg
+[release-badge]: https://img.shields.io/github/v/release/masterpointio/terraform-module-template?color=0E383A&label=Release&style=for-the-badge&logo=github&logoColor=white
 [latest-release]: https://github.com/masterpointio/terraform-module-template/releases/latest
 [contributors-image]: https://contrib.rocks/image?repo=masterpointio/terraform-module-template
 [contributors-url]: https://github.com/masterpointio/terraform-module-template/graphs/contributors
