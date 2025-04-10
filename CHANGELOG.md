@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.3.0](https://github.com/masterpointio/terraform-module-template/compare/v0.2.0...v0.3.0) (2025-04-10)
+
+
+### Features
+
+* actualize README template ([#15](https://github.com/masterpointio/terraform-module-template/issues/15)) ([5d8de5f](https://github.com/masterpointio/terraform-module-template/commit/5d8de5fcf98b255ed65201b1ab2036ebf92ca138))
+* **renovate:** enables renovate terraform manager ([#18](https://github.com/masterpointio/terraform-module-template/issues/18)) ([e45f5ac](https://github.com/masterpointio/terraform-module-template/commit/e45f5acf08195f45ac9d4fe23447c600230ba4b4))
+
+
+### Bug Fixes
+
+* **renovate:** schedule update ([#20](https://github.com/masterpointio/terraform-module-template/issues/20)) ([62d7e24](https://github.com/masterpointio/terraform-module-template/commit/62d7e24aa39312565c894525ef5c0ebb1053eb74))
+
 ## [0.2.0](https://github.com/masterpointio/terraform-module-template/compare/v0.1.1...v0.2.0) (2024-11-14)
 
 
