@@ -4,7 +4,7 @@
     "github>aquaproj/aqua-renovate-config#2.7.5"
   ],
   "schedule": [
-    "every month on the first day of the month"
+    "after 9am on the first day of the month"
   ],
   "assigneesFromCodeOwners": true,
   "dependencyDashboardAutoclose": true,
