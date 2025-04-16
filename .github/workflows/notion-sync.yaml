@@ -1,19 +1,10 @@
 name: Notion Sync
 
+permissions:
+  issues: read
+
 on:
   workflow_dispatch:
-  prs:
-    types:
-      - opened
-      - edited
-      - labeled
-      - unlabeled
-      - assigned
-      - unassigned
-      - milestoned
-      - demilestoned
-      - reopened
-      - closed
   issues:
     types:
       - opened
