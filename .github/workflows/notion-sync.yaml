@@ -2,20 +2,30 @@ name: Notion Sync
 
 on:
   workflow_dispatch:
+  prs:
+    types:
+      - opened
+      - edited
+      - labeled
+      - unlabeled
+      - assigned
+      - unassigned
+      - milestoned
+      - demilestoned
+      - reopened
+      - closed
   issues:
     types:
-      [
-        opened,
-        edited,
-        labeled,
-        unlabeled,
-        assigned,
-        unassigned,
-        milestoned,
-        demilestoned,
-        reopened,
-        closed,
-      ]
+      - opened
+      - edited
+      - labeled
+      - unlabeled
+      - assigned
+      - unassigned
+      - milestoned
+      - demilestoned
+      - reopened
+      - closed
 
 jobs:
   notion_job:
