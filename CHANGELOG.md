@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/masterpointio/terraform-module-template/compare/v0.3.0...v0.4.0) (2025-04-16)
+
+
+### Features
+
+* setup connection to notion db ([#21](https://github.com/masterpointio/terraform-module-template/issues/21)) ([857df50](https://github.com/masterpointio/terraform-module-template/commit/857df5042fbde3d3e9ffbfc964eae9f7a7927cb0))
+
 ## [0.3.0](https://github.com/masterpointio/terraform-module-template/compare/v0.2.0...v0.3.0) (2025-04-10)
 
 
