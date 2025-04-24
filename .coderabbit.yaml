@@ -27,6 +27,8 @@ knowledge_base:
 reviews:
   profile: chill
   auto_review:
+    # Disable incremental code review on each push
+    auto_incremental_review: false
     # The keywords are case-insensitive
     ignore_title_keywords:
       - wip
