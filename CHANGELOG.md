@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/masterpointio/terraform-module-template/compare/v0.4.0...v0.5.0) (2025-04-24)
+
+
+### Features
+
+* upgrade terraform docs ([#23](https://github.com/masterpointio/terraform-module-template/issues/23)) ([475707f](https://github.com/masterpointio/terraform-module-template/commit/475707f7d6eef8bde27bca632cba25a535010fdc))
+
 ## [0.4.0](https://github.com/masterpointio/terraform-module-template/compare/v0.3.0...v0.4.0) (2025-04-16)
 
 
