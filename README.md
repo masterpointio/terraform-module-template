@@ -21,7 +21,7 @@ TODO
 TODO
 
 <!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+<!-- markdownlint-disable MD013 -->
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
@@ -78,7 +78,7 @@ TODO
 |------|-------------|
 | <a name="output_random_pet_name"></a> [random\_pet\_name](#output\_random\_pet\_name) | The generated random pet name |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- markdownlint-enable -->
+<!-- markdownlint-enable MD013 -->
 <!-- prettier-ignore-end -->
 
 ## Built By
