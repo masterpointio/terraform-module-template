@@ -17,6 +17,10 @@
   "terraform": {
     "ignorePaths": [
       "**/context.tf" // Mixin file https://github.com/cloudposse/terraform-null-label/blob/main/exports/context.tf
+    ],
+    "fileMatch": [
+      "**/*.tf",
+      "**/*.tofu"
     ]
   },
   "packageRules": [
@@ -32,6 +36,21 @@
         "digest"
       ],
       "automerge": true
+    },
+    {
+      "matchFiles": ["**/*.tofu", "**/*.tf"],
+      "matchDatasources": ["terraform-provider", "terraform-module"],
+      "registryUrls": ["https://registry.opentofu.org"]
+    },
+    {
+      "matchFiles": ["**/*.tofu"],
+      "matchDepTypes": ["required_version"],
+      "registryUrls": ["https://registry.opentofu.org"]
+    },
+    {
+      "matchFiles": ["**/*.tf"],
+      "matchDepTypes": ["required_version"],
+      "registryUrls": ["https://registry.terraform.io"]
     }
   ]
 }
