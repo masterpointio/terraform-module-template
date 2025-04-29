@@ -38,17 +38,17 @@
       "automerge": true
     },
     {
-      "matchFiles": ["**/*.tofu", "**/*.tf"],
+      "matchFileNames": ["**/*.tofu", "**/*.tf"],
       "matchDatasources": ["terraform-provider", "terraform-module"],
       "registryUrls": ["https://registry.opentofu.org"]
     },
     {
-      "matchFiles": ["**/*.tofu"],
+      "matchFileNames": ["**/*.tofu"],
       "matchDepTypes": ["required_version"],
       "registryUrls": ["https://registry.opentofu.org"]
     },
     {
-      "matchFiles": ["**/*.tf"],
+      "matchFileNames": ["**/*.tf"],
       "matchDepTypes": ["required_version"],
       "registryUrls": ["https://registry.terraform.io"]
     }
