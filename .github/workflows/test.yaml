@@ -55,6 +55,8 @@ jobs:
             echo "contains_hashicorp=false" >> $GITHUB_OUTPUT
           fi
 
+      # Assume into the `masterpoint-testing` AWS account with OIDC for testing ONLY if the AWS provider is used
+      # Not needed for modules that don't use the AWS provider, for example, exclusive Spacelift modules
       - name: Configure AWS Credentials on `masterpoint-testing` AWS Account
         if: steps.check_hashicorp.outputs.contains_hashicorp == 'true'
         uses: aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722 # v4.1.0
