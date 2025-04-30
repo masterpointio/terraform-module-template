@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1](https://github.com/masterpointio/terraform-module-template/compare/v0.5.0...v0.5.1) (2025-04-30)
+
+
+### Bug Fixes
+
+* **renovate:** valid regex ([#30](https://github.com/masterpointio/terraform-module-template/issues/30)) ([224acea](https://github.com/masterpointio/terraform-module-template/commit/224aceac5b841ab78c22ba42b7c3d74edae90b26))
+
 ## [0.5.0](https://github.com/masterpointio/terraform-module-template/compare/v0.4.0...v0.5.0) (2025-04-24)
 
 
