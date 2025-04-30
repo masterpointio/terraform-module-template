@@ -13,6 +13,9 @@ permissions:
   id-token: write
   pull-requests: read
 
+env:
+  AWS_REGION: us-east-1
+
 jobs:
   tf-test:
     name: 🧪 ${{ matrix.tf }} test
