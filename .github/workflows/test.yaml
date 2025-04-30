@@ -41,5 +41,24 @@ jobs:
         shell: bash
         run: aqua install --tags ${{ matrix.tf }}
 
+      - name: Check if TF AWS provider is used
+        id: check_hashicorp
+        run: |
+          if grep -q "hashicorp/aws" $(find . -type f -not -path "*/\.git/*"); then
+            echo "Found hashicorp/aws in repository files"
+            echo "contains_hashicorp=true" >> $GITHUB_OUTPUT
+          else
+            echo "No files contain hashicorp/aws"
+            echo "contains_hashicorp=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Configure AWS Credentials on `masterpoint-testing` AWS Account
+        if: steps.check_hashicorp.outputs.contains_hashicorp == 'true'
+        uses: aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722 # v4.1.0
+        with:
+          role-to-assume: arn:aws:iam::115843287071:role/mp-ue1-testing-oidc-github
+          role-session-name: GitHubActionsOIDC-MP-Infra-Repo
+          aws-region: ${{ env.AWS_REGION }}
+
       - run: ${{ matrix.tf }} init
       - run: ${{ matrix.tf }} test
