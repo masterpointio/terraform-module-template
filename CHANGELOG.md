@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/masterpointio/terraform-module-template/compare/v0.5.1...v0.6.0) (2025-04-30)
+
+
+### Features
+
+* **gha:** oidc aws credentials if AWS provider is used ([#29](https://github.com/masterpointio/terraform-module-template/issues/29)) ([4f8f1ad](https://github.com/masterpointio/terraform-module-template/commit/4f8f1adec3274960a11ee7277296e88d662c8036))
+
 ## [0.5.1](https://github.com/masterpointio/terraform-module-template/compare/v0.5.0...v0.5.1) (2025-04-30)
 
 
