@@ -47,11 +47,11 @@ jobs:
       - name: Check if TF AWS provider is used
         id: check_hashicorp
         run: |
-          if grep -q "hashicorp/aws" $(find . -name "*.tf" -type f); then
-            echo "Found hashicorp/aws in .tf files"
+          if grep -q "hashicorp/aws" $(find . -name "*.tf" -o -name "*.tofu" -type f); then
+            echo "Found hashicorp/aws in .tf or .tofu files"
             echo "contains_hashicorp=true" >> $GITHUB_OUTPUT
           else
-            echo "No .tf files contain hashicorp/aws"
+            echo "No .tf or .tofu files contain hashicorp/aws"
             echo "contains_hashicorp=false" >> $GITHUB_OUTPUT
           fi
 
