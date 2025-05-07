@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/masterpointio/terraform-module-template/compare/v0.6.0...v0.7.0) (2025-05-07)
+
+
+### Features
+
+* GHA, trunk and renovate updates ([#34](https://github.com/masterpointio/terraform-module-template/issues/34)) ([b16fa86](https://github.com/masterpointio/terraform-module-template/commit/b16fa86ea444eb1464c443324908b284a7842861))
+
 ## [0.6.0](https://github.com/masterpointio/terraform-module-template/compare/v0.5.1...v0.6.0) (2025-04-30)
 
 
