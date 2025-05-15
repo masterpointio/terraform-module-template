@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.1](https://github.com/masterpointio/terraform-module-template/compare/v0.7.0...v0.7.1) (2025-05-15)
+
+
+### Bug Fixes
+
+* use `pull_request_target` to allow permissions ([#37](https://github.com/masterpointio/terraform-module-template/issues/37)) ([5292ae3](https://github.com/masterpointio/terraform-module-template/commit/5292ae3aa1382b5faf22216223ffbf044d4f6480))
+
 ## [0.7.0](https://github.com/masterpointio/terraform-module-template/compare/v0.6.0...v0.7.0) (2025-05-07)
 
 
