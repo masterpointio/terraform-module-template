@@ -26,7 +26,7 @@ OpenTofu.
 - **renovate**: Automated dependency updates
 - **tofu**: OpenTofu linter (an alternative to Terraform)
 - **tflint**: Terraform linter for best practices and error detection
-- **trivy**: Vulnerability scanner for containers and other artifacts
+- **trivy**: Scans containers and artifacts for vulnerabilities
 - **trufflehog**: Secret and sensitive data scanner
 - **yamllint**: Linter for YAML files
 
