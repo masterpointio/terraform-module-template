@@ -27,10 +27,15 @@ lint:
     - git-diff-check
     - markdownlint@0.44.0
     - prettier@3.5.3
-    - tflint@0.56.0
+    - tflint@0.57.0
     - trivy@0.61.1
     - trufflehog@3.88.26
     - yamllint@1.37.0
+  definitions:
+    - name: tflint
+      environment:
+        - name: TFLINT_CONFIG_FILE
+          value: ${workspace}/.trunk/configs/.tflint.hcl
   ignore:
     - linters: [tofu]
       paths:

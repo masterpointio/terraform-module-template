@@ -8,7 +8,26 @@
 
 ## Purpose and Functionality
 
-This repository serves as a template for creating Terraform modules, providing a standardized structure and essential files for efficient module development. It's designed to ensure consistency and our best practices across Terraform projects.
+This repository serves as a template for creating Terraform modules,
+providing a standardized structure and essential files for efficient module
+development. It's designed to ensure consistency and our best practices across
+Terraform projects.
+
+It comes pre-packaged with Masterpoint's standard Open Source tool set that our
+team uses to operate effectively while when writing terraform + open tofu.
+
+- trunk: Trunk CLI for managing code quality and automation (linters and pre-commit actions)
+- tflint: Terraform linter for best practices and errors
+- renovate: Automated dependency updates
+- tofu: OpenTofu linter for Terraform alternative
+- actionlint: Linter for GitHub Actions workflows
+- checkov: Infrastructure as Code (IaC) security scanner
+- git-diff-check: Checks for issues in git diffs
+- markdownlint: Linter for Markdown files
+- prettier: Code formatter for consistent style
+- trivy: Vulnerability scanner for containers and other artifacts
+- trufflehog: Secret and sensitive data scanner
+- yamllint: Linter for YAML files
 
 ## Usage
 
@@ -83,7 +102,8 @@ TODO
 
 ## Built By
 
-Powered by the [Masterpoint team](https://masterpoint.io/who-we-are/) and driven forward by contributions from the community ❤️
+Powered by the [Masterpoint team](https://masterpoint.io/who-we-are/) and driven
+forward by contributions from the community ❤️
 
 [![Contributors][contributors-image]][contributors-url]
 
@@ -93,25 +113,41 @@ Contributions are welcome and appreciated!
 
 Found an issue or want to request a feature? [Open an issue][issues-url]
 
-Want to fix a bug you found or add some functionality? Fork, clone, commit, push, and PR — we'll check it out.
+Want to fix a bug you found or add some functionality? Fork, clone, commit,
+push, and PR — we'll check it out.
 
 ## Who We Are 𐦂𖨆𐀪𖠋
 
-Established in 2016, Masterpoint is a team of experienced software and platform engineers specializing in Infrastructure as Code (IaC). We provide expert guidance to organizations of all sizes, helping them leverage the latest IaC practices to accelerate their engineering teams.
+Established in 2016, Masterpoint is a team of experienced software and platform
+engineers specializing in Infrastructure as Code (IaC). We provide expert
+guidance to organizations of all sizes, helping them leverage the latest IaC
+practices to accelerate their engineering teams.
 
 ### Our Mission
 
-Our mission is to simplify cloud infrastructure so developers can innovate faster, safer, and with greater confidence. By open-sourcing tools and modules that we use internally, we aim to contribute back to the community, promoting consistency, quality, and security.
+Our mission is to simplify cloud infrastructure so developers can innovate
+faster, safer, and with greater confidence. By open-sourcing tools and modules
+that we use internally, we aim to contribute back to the community, promoting
+consistency, quality, and security.
 
 ### Our Commitments
 
-- 🌟 **Open Source**: We live and breathe open source, contributing to and maintaining hundreds of projects across multiple organizations.
-- 🌎 **1% for the Planet**: Demonstrating our commitment to environmental sustainability, we are proud members of [1% for the Planet](https://www.onepercentfortheplanet.org), pledging to donate 1% of our annual sales to environmental nonprofits.
-- 🇺🇦 **1% Towards Ukraine**: With team members and friends affected by the ongoing [Russo-Ukrainian war](https://en.wikipedia.org/wiki/Russo-Ukrainian_War), we donate 1% of our annual revenue to invasion relief efforts, supporting organizations providing aid to those in need. [Here's how you can help Ukraine with just a few clicks](https://masterpoint.io/updates/supporting-ukraine/).
+- 🌟 **Open Source**: We live and breathe open source, contributing to and
+  maintaining hundreds of projects across multiple organizations.
+- 🌎 **1% for the Planet**: Demonstrating our commitment to environmental
+  sustainability, we are proud members of [1% for the Planet](https://www.onepercentfortheplanet.org),
+  pledging to donate 1% of our annual sales to environmental nonprofits.
+- 🇺🇦 **1% Towards Ukraine**: With team members and friends affected by the
+  ongoing [Russo-Ukrainian war](https://en.wikipedia.org/wiki/Russo-Ukrainian_War),
+  we donate 1% of our annual revenue to invasion relief efforts, supporting
+  organizations providing aid to those in need. [Here's how you can help Ukraine
+  with just a few clicks](https://masterpoint.io/updates/supporting-ukraine/).
 
 ## Connect With Us
 
-We're active members of the community and are always publishing content, giving talks, and sharing our hard earned expertise. Here are a few ways you can see what we're up to:
+We're active members of the community and are always publishing content, giving
+talks, and sharing our hard earned expertise. Here are a few ways you can see
+what we're up to:
 
 [![LinkedIn][linkedin-badge]][linkedin-url] [![Newsletter][newsletter-badge]][newsletter-url] [![Blog][blog-badge]][blog-url] [![YouTube][youtube-badge]][youtube-url]
 
