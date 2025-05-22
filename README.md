@@ -10,24 +10,25 @@
 
 This repository serves as a template for creating Terraform modules,
 providing a standardized structure and essential files for efficient module
-development. It's designed to ensure consistency and our best practices across
-Terraform projects.
+development. It is designed to ensure consistency and promote our best
+practices across all Terraform projects.
 
-It comes pre-packaged with Masterpoint's standard Open Source tool set that our
-team uses to operate effectively while when writing terraform + open tofu.
+It comes pre-packaged with Masterpoint's standard open source toolset, which
+our team uses to operate effectively when working with both Terraform and
+OpenTofu.
 
-- trunk: Trunk CLI for managing code quality and automation (linters and pre-commit actions)
-- tflint: Terraform linter for best practices and errors
-- renovate: Automated dependency updates
-- tofu: OpenTofu linter for Terraform alternative
-- actionlint: Linter for GitHub Actions workflows
-- checkov: Infrastructure as Code (IaC) security scanner
-- git-diff-check: Checks for issues in git diffs
-- markdownlint: Linter for Markdown files
-- prettier: Code formatter for consistent style
-- trivy: Vulnerability scanner for containers and other artifacts
-- trufflehog: Secret and sensitive data scanner
-- yamllint: Linter for YAML files
+- **trunk**: Trunk CLI for managing code quality (linters + checks)
+- **actionlint**: Linter for GitHub Actions workflows
+- **checkov**: Infrastructure as Code (IaC) security scanner
+- **git-diff-check**: Checks for issues in git diffs
+- **markdownlint**: Linter for Markdown files
+- **prettier**: Code formatter for consistent style
+- **renovate**: Automated dependency updates
+- **tofu**: OpenTofu linter (an alternative to Terraform)
+- **tflint**: Terraform linter for best practices and error detection
+- **trivy**: Vulnerability scanner for containers and other artifacts
+- **trufflehog**: Secret and sensitive data scanner
+- **yamllint**: Linter for YAML files
 
 ## Usage
 
