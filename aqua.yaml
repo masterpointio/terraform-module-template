@@ -15,5 +15,3 @@ packages:
     tags: [terraform]
   - name: opentofu/opentofu@v1.9.1
     tags: [tofu]
-  - name: terraform-linters/tflint@v0.57.0
-    tags: [tflint]
