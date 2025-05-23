@@ -34,27 +34,12 @@ rule "terraform_deprecated_index" {
     # Disallow legacy dot index syntax
     enabled = true
 }
-rule "terraform_deprecated_interpolation" {
-    # Disallow deprecated (0.11-style) interpolation
-    # Enabled by default
-    enabled = true
-}
 rule "terraform_documented_outputs" {
     # Disallow output declarations without description
     enabled = true
 }
 rule "terraform_documented_variables" {
     # Disallow variable declarations without description
-    enabled = true
-}
-rule "terraform_module_pinned_source" {
-    # Disallow specifying a git or mercurial repository as a module source without pinning to a version
-    # Enabled by default
-    enabled = true
-}
-rule "terraform_module_version" {
-    # Checks that Terraform modules sourced from a registry specify a version
-    # Enabled by default
     enabled = true
 }
 rule "terraform_naming_convention" {
@@ -89,10 +74,5 @@ rule "terraform_unused_declarations" {
 }
 rule "terraform_unused_required_providers" {
     # Check that all required_providers are used in the module
-    enabled = true
-}
-rule "terraform_workspace_remote" {
-    # terraform.workspace should not be used with a "remote" backend with remote execution.
-    # Enabled by default
     enabled = true
 }
