@@ -5,8 +5,15 @@ plugin "terraform" {
 
 config {
   format = "compact"
-  call_module_type = "local"
-  force = false
+
+  # Inspect variables passed into "module" blocks/calls.
+  # For example, lint the AMI value passed into an ec2 CloudPosse module
+  # Default value is "local"
+  # https://github.com/terraform-linters/tflint/blob/master/docs/user-guide/calling-modules.md
+  call_module_type = "all"
+
+  # Disable all rules by default
+  # Default value is false
   disabled_by_default = false
 }
 
