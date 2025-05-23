@@ -6,15 +6,13 @@ plugin "terraform" {
 config {
   format = "compact"
 
-  # Inspect variables passed into "module" blocks/calls.
-  # For example, lint the AMI value passed into an ec2 CloudPosse module
-  # Default value is "local"
+  # Inspect vars passed into "module" blocks. eg, lint AMI value passed into ec2 module.
   # https://github.com/terraform-linters/tflint/blob/master/docs/user-guide/calling-modules.md
   call_module_type = "all"
 
-  # Disable all rules by default
-  # Default value is false
+  # default values but keeping them here for clarity
   disabled_by_default = false
+  force = false
 }
 
 # Installing tflint rulesets from Github requires setting a GITHUB_TOKEN
@@ -34,36 +32,6 @@ plugin "aws" {
   deep_check = false
 }
 
-
-rule "terraform_comment_syntax" {
-    # Disallow `//` comments in favor of `#`
-    enabled = true
-}
-rule "terraform_deprecated_index" {
-    # Disallow legacy dot index syntax
-    enabled = true
-}
-rule "terraform_documented_outputs" {
-    # Disallow output declarations without description
-    enabled = true
-}
-rule "terraform_documented_variables" {
-    # Disallow variable declarations without description
-    enabled = true
-}
-rule "terraform_naming_convention" {
-    # Enforces naming conventions for resources, data sources, etc
-    enabled = true
-}
-rule "terraform_required_providers" {
-    # Require that all providers have version constraints through required_providers
-    enabled = true
-}
-rule "terraform_required_version" {
-    # Disallow terraform declarations without require_version
-    enabled = true
-}
-
 # Allow variables to exist in more files than ONLY variables.tf
 # Example use cases where we prefer for variables to exist in context,
 # - context.tf (applicable to the null-label module)
@@ -71,17 +39,4 @@ rule "terraform_required_version" {
 # https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_standard_module_structure.md
 rule "terraform_standard_module_structure" {
   enabled = false
-}
-
-rule "terraform_typed_variables" {
-    # Disallow variable declarations without type
-    enabled = true
-}
-rule "terraform_unused_declarations" {
-    # Disallow variables, data sources, and locals that are declared but never used
-    enabled = true
-}
-rule "terraform_unused_required_providers" {
-    # Check that all required_providers are used in the module
-    enabled = true
 }
