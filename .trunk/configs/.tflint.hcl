@@ -10,14 +10,16 @@ config {
   disabled_by_default = false
 }
 
-# installing the aws ruleset from GitHub requires setting a GITHUB_TOKEN
+# Installing tflint rulesets from Github requires setting a GITHUB_TOKEN
 # environment variable. Without it, you'll get an error like this:
-#
-# Installing "aws" plugin...
-# Failed to install a plugin; Failed to fetch GitHub releases: GET https://api.github.com/repos/terraform-linters/tflint-ruleset-aws/releases/tags/v0.39.0: 401 Bad credentials []
+#   $ tflint --init
+#   Installing "aws" plugin...
+#   Failed to install a plugin; Failed to fetch GitHub releases: GET https://api.github.com/repos/terraform-linters/tflint-ruleset-aws/releases/tags/v0.39.0: 401 Bad credentials []
 #
 # The solution is to provide a github PAT via a GITHUB_TOKEN env var,
 # export GITHUB_TOKEN=github_pat_120abc123def456ghi789jkl123mno456pqr789stu123vwx456yz789
+#
+# See docs for more info: https://github.com/terraform-linters/tflint/blob/master/docs/user-guide/plugins.md#avoiding-rate-limiting
 plugin "aws" {
   enabled = true
   version = "0.39.0"
