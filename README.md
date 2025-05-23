@@ -10,7 +10,7 @@
 
 This repository serves as a template for creating Terraform modules, providing a standardized structure and essential files for efficient module development. It is designed to ensure consistency and promote our best practices across all Terraform projects.
 
-It comes pre-configured with Masterpoint's curation of open source tools, which our team uses to operate more effectively with Terraform and OpenTofu.
+It comes pre-configured with Masterpoint's curation of open source tools, which our team uses to operate more effectively within Terraform and OpenTofu codebases.
 
 - [**aqua**](https://aquaproj.github.io/): Declarative CLI tool verison manager
 - **tofu + terraform test workflows**: For continuously testing our TF code
