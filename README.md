@@ -8,17 +8,13 @@
 
 ## Purpose and Functionality
 
-This repository serves as a template for creating Terraform modules,
-providing a standardized structure and essential files for efficient module
-development. It is designed to ensure consistency and promote our best
-practices across all Terraform projects.
+This repository serves as a template for creating Terraform modules, providing a standardized structure and essential files for efficient module development. It is designed to ensure consistency and promote our best practices across all Terraform projects.
 
-It comes pre-configured with Masterpoint's standard open source toolset, which
-our team uses to operate effectively when working with both Terraform and
-OpenTofu.
+It comes pre-configured with Masterpoint's curation of open source tools, which our team uses to operate more effectively with Terraform and OpenTofu.
 
 - [**aqua**](https://aquaproj.github.io/): Declarative CLI tool verison manager
 - **tofu + terraform test workflows**: For continuously testing our TF code
+- [**terraform-docs**](https://terraform-docs.io/): Easily add terraform docs to the README
 - [**trunk**](https://docs.trunk.io/references/cli/getting-started): Trunk CLI for managing code quality (linters + checks)
   - **actionlint**: Linter for GitHub Actions workflows
   - **checkov**: Infrastructure as Code (IaC) security scanner
