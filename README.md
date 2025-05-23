@@ -13,22 +13,23 @@ providing a standardized structure and essential files for efficient module
 development. It is designed to ensure consistency and promote our best
 practices across all Terraform projects.
 
-It comes pre-packaged with Masterpoint's standard open source toolset, which
+It comes pre-configured with Masterpoint's standard open source toolset, which
 our team uses to operate effectively when working with both Terraform and
 OpenTofu.
 
-- **trunk**: Trunk CLI for managing code quality (linters + checks)
-- **actionlint**: Linter for GitHub Actions workflows
-- **checkov**: Infrastructure as Code (IaC) security scanner
-- **git-diff-check**: Checks for issues in git diffs
-- **markdownlint**: Linter for Markdown files
-- **prettier**: Code formatter for consistent style
-- **renovate**: Automated dependency updates
-- **tofu**: OpenTofu linter (an alternative to Terraform)
-- **tflint**: Terraform linter for best practices and error detection
-- **trivy**: Scans containers and artifacts for vulnerabilities
-- **trufflehog**: Secret and sensitive data scanner
-- **yamllint**: Linter for YAML files
+- [**aqua**](https://aquaproj.github.io/): Declarative CLI tool verison manager
+- **tofu + terraform test workflows**: For continuously testing our TF code
+- [**trunk**](https://docs.trunk.io/references/cli/getting-started): Trunk CLI for managing code quality (linters + checks)
+  - **actionlint**: Linter for GitHub Actions workflows
+  - **checkov**: Infrastructure as Code (IaC) security scanner
+  - **git-diff-check**: Checks for issues in git diffs
+  - **markdownlint**: Linter for Markdown files
+  - **prettier**: Code formatter for consistent style
+  - **renovate**: Automated dependency updates
+  - **tflint**: Terraform linter for best practices and error detection
+  - **trivy**: Scans containers and artifacts for vulnerabilities
+  - **trufflehog**: Secret and sensitive data scanner
+  - **yamllint**: Linter for YAML files
 
 ## Usage
 
