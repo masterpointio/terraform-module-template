@@ -27,10 +27,17 @@ lint:
     - git-diff-check
     - markdownlint@0.44.0
     - prettier@3.5.3
-    - tflint@0.56.0
+    - tflint@0.57.0
     - trivy@0.61.1
     - trufflehog@3.88.26
     - yamllint@1.37.0
+  # NOTE(tflint): specific override required so it uses .tflint.hcl file in .trunk/configs directory
+  # https://github.com/trunk-io/plugins/tree/main/linters/tflint
+  definitions:
+    - name: tflint
+      environment:
+        - name: TFLINT_CONFIG_FILE
+          value: ${workspace}/.trunk/configs/.tflint.hcl
   ignore:
     - linters: [tofu]
       paths:
