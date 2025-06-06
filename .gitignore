@@ -16,6 +16,7 @@
 # IDE/Editor settings
 **/.idea
 **/*.iml
+.cursor/
 .vscode/
 *.orig
 *.draft
