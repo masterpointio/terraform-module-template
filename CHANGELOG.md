@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.7.1](https://github.com/masterpointio/terraform-module-template/compare/v0.7.0...v0.7.1) (2025-06-11)
+
+
+### Bug Fixes
+
+* **gha-lint:** allow lint workflow to be triggered by github-actions[bot] ([#41](https://github.com/masterpointio/terraform-module-template/issues/41)) ([d68ff09](https://github.com/masterpointio/terraform-module-template/commit/d68ff09e11c4bc2a2b4334e3528b342ca64859d5))
+* use `pull_request_target` to allow permissions ([#37](https://github.com/masterpointio/terraform-module-template/issues/37)) ([5292ae3](https://github.com/masterpointio/terraform-module-template/commit/5292ae3aa1382b5faf22216223ffbf044d4f6480))
+
 ## [0.7.0](https://github.com/masterpointio/terraform-module-template/compare/v0.6.0...v0.7.0) (2025-05-07)
 
 
