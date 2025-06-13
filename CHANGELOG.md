@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://github.com/masterpointio/terraform-module-template/compare/v0.7.1...v0.8.0) (2025-06-13)
+
+
+### Features
+
+* **INT-83:** dial in configs for tflint ([#39](https://github.com/masterpointio/terraform-module-template/issues/39)) ([60c58f4](https://github.com/masterpointio/terraform-module-template/commit/60c58f4573a289e349b9234f3fa78ef5f48f0b1d))
+
 ## [0.7.1](https://github.com/masterpointio/terraform-module-template/compare/v0.7.0...v0.7.1) (2025-06-11)
 
 
