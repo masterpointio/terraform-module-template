@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(trunk check:*)",
+      "Bash(git checkout:*)",
+      "Bash(find:*)",
+      "Bash(git mv:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}
