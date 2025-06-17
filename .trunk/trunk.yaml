@@ -31,6 +31,13 @@ lint:
     - trivy@0.63.0
     - trufflehog@3.88.35
     - yamllint@1.37.1
+  # NOTE(tflint): specific override required so it uses .tflint.hcl file in .trunk/configs directory
+  # https://github.com/trunk-io/plugins/tree/main/linters/tflint
+  definitions:
+    - name: tflint
+      environment:
+        - name: TFLINT_CONFIG_FILE
+          value: ${workspace}/.trunk/configs/.tflint.hcl
   ignore:
     - linters: [tofu]
       paths:
