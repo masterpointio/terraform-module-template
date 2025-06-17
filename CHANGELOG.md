@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.8.0](https://github.com/masterpointio/terraform-module-template/compare/v0.7.1...v0.8.0) (2025-06-17)
+
+
+### Features
+
+* **INT-83:** dial in configs for tflint ([#39](https://github.com/masterpointio/terraform-module-template/issues/39)) ([60c58f4](https://github.com/masterpointio/terraform-module-template/commit/60c58f4573a289e349b9234f3fa78ef5f48f0b1d))
+
+
+### Bug Fixes
+
+* **gha-trunk-upgrade:** wait for checks and merge with admin ([#42](https://github.com/masterpointio/terraform-module-template/issues/42)) ([0c399bc](https://github.com/masterpointio/terraform-module-template/commit/0c399bc2bb0d47006cb0c57b185a4e51b1a20ffb))
+* **gha:** use app–generated token to create release-please PRs ([#45](https://github.com/masterpointio/terraform-module-template/issues/45)) ([a0c0d46](https://github.com/masterpointio/terraform-module-template/commit/a0c0d460517ba1b78525b0772693a0e8b675c7d5))
+* linter configs to root folder ([#44](https://github.com/masterpointio/terraform-module-template/issues/44)) ([7aacf9f](https://github.com/masterpointio/terraform-module-template/commit/7aacf9f92899211de95f00e03879c1923f57ac0b))
+
 ## [0.7.1](https://github.com/masterpointio/terraform-module-template/compare/v0.7.0...v0.7.1) (2025-06-11)
 
 
