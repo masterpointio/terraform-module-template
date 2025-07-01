@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.8.1](https://github.com/masterpointio/terraform-module-template/compare/v0.8.0...v0.8.1) (2025-07-01)
+
+
+### Bug Fixes
+
+* add cursor to ignored ai code gen ([#46](https://github.com/masterpointio/terraform-module-template/issues/46)) ([57f59b8](https://github.com/masterpointio/terraform-module-template/commit/57f59b8cb2bc2c323cd009eb4b6c3775b094c09c))
+* **gha:** add auto-approve + update codeowners ([#49](https://github.com/masterpointio/terraform-module-template/issues/49)) ([da097cc](https://github.com/masterpointio/terraform-module-template/commit/da097cce1f572aa8d3723a35e9e946d596bb217f))
+
 ## [0.8.0](https://github.com/masterpointio/terraform-module-template/compare/v0.7.1...v0.8.0) (2025-06-17)
 
 
