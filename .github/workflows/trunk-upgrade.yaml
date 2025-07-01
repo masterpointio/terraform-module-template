@@ -37,7 +37,7 @@ jobs:
       - name: Wait for checks to pass + Merge PR
         if: steps.trunk-upgrade.outputs.pull-request-number != ''
         env:
-          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+          GH_TOKEN: ${{ secrets.MASTERPOINT_TEAM_PAT }}
           PR_NUMBER: ${{ steps.trunk-upgrade.outputs.pull-request-number }}
         run: |
           echo "Waiting for required status checks to pass on PR #$PR_NUMBER..."
@@ -52,7 +52,12 @@ jobs:
 
             FAILED_OR_PENDING_CHECKS=$(echo "$CHECKS_JSON" | jq '[.[] | select(.state!="SUCCESS" or .bucket!="pass")] | length')
             if [ "$FAILED_OR_PENDING_CHECKS" -eq 0 ]; then
-              echo "All required checks passed. Merging PR https://github.com/${{ github.repository }}/pull/$PR_NUMBER..."
+              echo "All required checks passed. Auto-approving and merging PR https://github.com/${{ github.repository }}/pull/$PR_NUMBER..."
+
+              # Auto-approve the PR
+              gh pr review "$PR_NUMBER" --approve --body "Auto-approved by trunk upgrade workflow"
+
+              # Merge the PR
               gh pr merge "$PR_NUMBER" --squash --delete-branch --admin
               break
             else
