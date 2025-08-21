@@ -4,4 +4,4 @@
 # Order is important: the last matching pattern takes the most precedence
 
 # These owners will be the default owners for everything
-*             @masterpointio/masterpoint-open-source @masterpoint-team
+*             @masterpointio/masterpoint-open-source
