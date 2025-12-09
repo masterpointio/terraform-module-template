@@ -1,7 +1,8 @@
+// Check Renovate logs: Go to https://developer.mend.io/ → sign in with GitHub → find your repo → check the job logs to see what Renovate is doing (or why it's skipping updates).
 {
   "extends": [
     "config:best-practices",
-    "github>aquaproj/aqua-renovate-config#2.7.5"
+    "github>aquaproj/aqua-renovate-config#2.9.0"
   ],
   "enabledManagers": [
     "terraform",
@@ -57,7 +58,6 @@
     {
       "matchFileNames": ["**/*.tf"],
       "matchDepTypes": ["required_version"],
-      "registryUrls": ["https://registry.terraform.io"],
       "groupName": "tf"
     }
   ]
