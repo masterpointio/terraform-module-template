@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.2](https://github.com/masterpointio/terraform-module-template/compare/v0.8.1...v0.8.2) (2025-12-09)
+
+
+### Bug Fixes
+
+* remove TF registry URL + bump test GHA ([#57](https://github.com/masterpointio/terraform-module-template/issues/57)) ([fdb081c](https://github.com/masterpointio/terraform-module-template/commit/fdb081c56c25562c9079e0d1811dd96eda6eae02))
+
 ## [0.8.1](https://github.com/masterpointio/terraform-module-template/compare/v0.8.0...v0.8.1) (2025-07-01)
 
 
